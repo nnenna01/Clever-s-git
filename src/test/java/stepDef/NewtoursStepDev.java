@@ -50,8 +50,6 @@ public class NewtoursStepDev extends BaseUtil {
         assertThat(newtoursFlightFinderPage.IsEconomyClassSeelctedByDefault(), equalTo(true));
     }
 
-
-
     @When("I click on the Register link")
     public void i_click_on_the_register_link() {
         NewtoursHomePage newtoursHomePage = new NewtoursHomePage(base.driver);
