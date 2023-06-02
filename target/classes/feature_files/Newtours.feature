@@ -1,3 +1,5 @@
+
+@Newt
 Feature: newtours
   #  As a User, I want to be able to enter only accepted User Information details so that I can Register an account on the Mercury tours site
 #  https://demo.guru99.com/test/newtours/
@@ -10,7 +12,7 @@ Feature: newtours
   And “January 1” should be displayed by default for On and returning
   And “Economy Class” should be selected as default for the Service class
 
-
+#This is Clevers' work and I am trying to rework certain things
 
 
   @Newt
@@ -24,5 +26,5 @@ Feature: newtours
 
       Examples:
         | Username | Password    | CountryName |
-        | Jose | password120 | ANGOLA      |
+        | Jose     | password120 | ANGOLA      |
 

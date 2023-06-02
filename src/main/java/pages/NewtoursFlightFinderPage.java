@@ -49,7 +49,6 @@ public class NewtoursFlightFinderPage extends BasePages {
     public String GetFlightDetailsText(){
         return flightdetailsLocator.getText();
     }
-
     public boolean IsRoundTripSelected() {
         boolean result = false;
         try {

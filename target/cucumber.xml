@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="30.54">
-    <testcase classname="newtours" name="Register by entering only User Information" time="29.679">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="20.144">
+    <testcase classname="newtours" name="Flight Finder page" time="12.408">
+        <system-out><![CDATA[Given I am on the Newtours Home page........................................passed
+When I click on the Flights link on the left side menu......................passed
+Then The Flight Finder Page should be displayed.............................passed
+And “One Way” Flight details type is selected by default....................passed
+And “January 1” should be displayed by default for On and returning.........passed
+And “Economy Class” should be selected as default for the Service class.....passed
+]]></system-out>
+    </testcase>
+    <testcase classname="newtours" name="Register by entering only User Information" time="6.151">
         <system-out><![CDATA[Given I am on the Newtours Home page........................................passed
 When I click on the Register link...........................................passed
 And I enter "Jose", password and confirm as "password120"...................passed

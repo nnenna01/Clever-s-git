@@ -1,3 +1,5 @@
+
+@Newt
 Feature: newtours
   #  As a User, I want to be able to enter only accepted User Information details so that I can Register an account on the Mercury tours site
 #  https://demo.guru99.com/test/newtours/
@@ -24,5 +26,5 @@ Feature: newtours
 
       Examples:
         | Username | Password    | CountryName |
-        | Jose | password120 | ANGOLA      |
+        | Jose     | password120 | ANGOLA      |
 
